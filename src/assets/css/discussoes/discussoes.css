@@ -1,0 +1,373 @@
+.discussoes-texto {
+    margin-top: 20px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+
+}
+
+.discussoes-imagens {
+    padding: 50px;
+}
+
+#topico h3 {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #ED7839;
+
+}
+
+#topico p {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.1875;
+    text-align: center;
+
+    color: #595959;
+}
+
+.discussoes-texto h4 {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25;
+
+
+    color: #ED7839;
+}
+
+#btnRespostas, #btnResposta {
+    background: none;
+    border: none;
+    font-family: 'Segoe UI', serif;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 0.875rem;
+    line-height: 1.1875;
+
+    color: #757575;
+    cursor: pointer;
+}
+
+#btnCriarTopico {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    line-height: 1;
+    text-align: center;
+    padding: 0.5rem;
+
+    color: #FFFFFF;
+
+}
+
+.autor {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+
+    color: #5C5C5C;
+}
+
+.pergunta {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125;
+
+    color: #4D4D4D;
+}
+
+.like {
+    background: none;
+    border: none;
+    font-family: 'Segoe UI', serif;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 0.875rem;
+    line-height: 1.1875;
+    margin-top:auto;
+    margin-bottom:auto;
+
+
+    color: #757575;
+}
+
+.topicos {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 20px;
+
+}
+
+.coracao {
+    background: #ED7839;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    padding: 3px;
+}
+
+#coracao {
+    display: flex;
+    border: none;
+    background: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#coracao1 {
+    display: flex;
+    border: none;
+    background: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#criar-Topico {
+    display: none;
+    margin-top: 20px;
+    border-bottom: 1px solid #E7E7E7;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.texto-topico {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125;
+    text-align: center;
+
+
+    color: #5C5C5C;
+}
+
+#assunto {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125;
+
+
+    color: #4D4D4D;
+
+}
+
+#conteudo {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125;
+
+
+    color: #4D4D4D;
+}
+
+.assunto {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1875;
+
+    color: #ED7839;
+}
+
+.enviar-container {
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 0 4px 4px;
+}
+
+#btnEnviar {
+    border: none;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0 0 4px 0;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    line-height: 1;
+    cursor: pointer;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 10px 100px;
+
+}
+
+#btnBold {
+    border: none;
+    cursor: pointer;
+    color: #474747;
+}
+
+#btnItalic {
+    border: none;
+    cursor: pointer;
+    color: #474747;
+}
+
+#topico-enviado1 {
+    display: none;
+}
+
+#topico-enviado {
+
+    margin-bottom: 40px;
+
+}
+
+#novo-topico {
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+
+    color: #FFFFFF;
+}
+
+#topico-enviado h3 {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.3125;
+    text-align: center;
+
+    color: #ED7839;
+}
+
+#topico-enviado p {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.1875;
+
+    text-align: center;
+
+    color: #595959;
+}
+
+#topico-enviado span {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 137.5%;
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #F48F44;
+}
+
+#feedback {
+
+    background: rgba(221, 221, 221, 0.91);
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+    padding: 20px;
+
+
+}
+
+#feedback h3 {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25;
+
+
+    color: #707070;
+}
+
+#feedback p {
+    font-family: 'Segoe UI', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.1875;
+
+
+    text-decoration-line: underline;
+
+    color: #ed7839;
+}
+
+#topicos-feedback {
+    margin-top: -140px;
+    margin-left: 20px;
+
+}
+
+#topicos-feedback h4 {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+
+    color: rgba(237, 120, 57, 0.17);
+}
+
+#topicos-feedback p {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+
+    color: rgba(92, 92, 92, 0.15);
+}
+
+#topicos-feedback span {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.125;
+
+    color: rgba(77, 77, 77, 0.15);
+}

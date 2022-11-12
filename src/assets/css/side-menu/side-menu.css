@@ -1,0 +1,46 @@
+.p-button-1 {
+    background: #ED7839 !important;
+    color:#fff;
+}
+
+.side-menu {
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+
+}
+.retangle {
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+.retangle a {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.1875rem;
+    color: #FFFFFF;
+}
+.menu a {
+    display: flex;
+    border: 1px solid #E7E7E7;
+    color: #725C5C;
+    border-radius: 1px;
+    border-left: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+
+}
+
+.menu a:hover {
+    background: #FDF1EB;
+    border-left: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+}
+
+.menu a:active {
+    border-right: none;
+    -webkit-border-image: -webkit-gradient(linear, right top, left bottom, from(#FFB455), to(#ED7839)) 0 100%;
+    border-left: 6px solid #ffffff;
+
+}

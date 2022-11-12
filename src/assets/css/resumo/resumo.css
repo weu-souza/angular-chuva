@@ -1,0 +1,53 @@
+.resumo-container {
+    padding-bottom: 2rem;
+    margin: 8rem 8rem auto;
+
+}
+
+.resumo-container h2 {
+    color: #4E4E4E;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5625;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    border-radius: 3px 3px 0 0;
+    padding: 10px;
+}
+
+.resumo-texto {
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+}
+
+.resumo-texto p {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43rem;
+    letter-spacing: 0.02em;
+    /*padding: 20px;*/
+
+    color: #5C5C5C;
+
+}
+
+#btnVerMais {
+    background: none;
+    border: none;
+    color: #ED7839;
+    cursor: pointer;
+}
+
+#mais {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .resumo-container{
+        margin:5rem 5rem auto;
+    }
+}

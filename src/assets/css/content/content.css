@@ -1,0 +1,136 @@
+
+
+.detalhes h2 {
+    text-align: left;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    margin-bottom: 30px;
+
+}
+
+.home-video{
+    margin: 3rem 10rem auto;
+}
+.download-button {
+    cursor: pointer;
+    background: #ED7839;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #FFFFFF;
+    border-radius: 4px ;
+    border: #ED7839;
+}
+
+.fav-button {
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #ED7839;
+    border: #ED7839;
+    border-radius: 4px;
+}
+.detalhes-1 h2 {
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    border-radius: 3px 3px 0 0;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.56rem;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+
+    color: #4E4E4E;
+}
+
+.como-citar {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5625rem;
+    text-align: left;
+    letter-spacing: 0.05em;
+
+    color: #ED7839;
+
+    padding: 10px;
+
+}
+
+.apresentacao p {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.80rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #5C5C5C;
+
+}
+
+.apresentacao {
+    overflow: scroll;
+    width: 242px;
+    height: 200px;
+    overflow-x: hidden;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.detalhes, iframe {
+    width: 800px;
+    height: 439px;
+    padding-bottom: 2rem;
+    border: none;
+}
+
+@media (max-width: 1500px) {
+    .detalhes h2 {
+        font-size: 0.875rem;
+        line-height: 1rem;
+        letter-spacing: 1px;
+
+    }
+
+    .corpo-container {
+        margin-bottom: 60px;
+        padding: 20px;
+
+    }
+
+    .detalhes, iframe {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+.footer-texto{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+@media(max-width: 1300px){
+    .home-video{
+    margin: 1rem 5rem auto;
+    }
+    .download-content{
+        margin: 3rem   auto;
+    }
+    .logo{
+        margin: 3rem auto
+    }
+    .footer-texto{
+        margin: auto;
+    }
+}

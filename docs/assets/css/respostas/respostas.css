@@ -1,0 +1,62 @@
+.respostas-autor {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.9375;
+
+    color: #5C5C5C;
+}
+
+.tag-autor {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.125;
+
+    color: #ED7839;
+}
+
+.resposta-do-autor {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125;
+    padding-bottom: 30px;
+
+    color: #4D4D4D;
+}
+
+.respostas-bg {
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    border-radius: 0;
+    padding: 30px;
+
+}
+
+.respostas-ouvinte {
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.resposta-do-autor-span {
+
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125;
+
+    color: #4D4D4D;
+}
+
+#respostas1 {
+    display: none;
+}
+
+#respostas {
+    display: none;
+}

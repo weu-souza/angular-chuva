@@ -1,0 +1,75 @@
+.header-container {
+    background: #FDF1EB;
+
+}
+
+.header-titulo {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.1;
+    color: #725C5C;
+    padding: 3px;
+}
+
+.acima-titulo {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.775rem;
+    line-height: 1rem;
+    color: #725C5C;
+}
+
+.abaixo-titulo {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.775rem;
+    line-height: 1rem;
+    color: #725C5C;
+}
+
+.border-language {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    border-right: none;
+}
+.dropdown{
+    text-transform: uppercase;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+
+}
+
+.bem-vindo {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1.125;
+    text-align: right;
+    color: #333333;
+
+}
+
+.email {
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.93;
+    text-align: right;
+    color: #333333;
+}
+@media (max-width: 1200px) {
+    #btnMobile {
+        display: inline;
+    }
+
+
+}

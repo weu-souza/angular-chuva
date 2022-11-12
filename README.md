@@ -1,0 +1,1 @@
+este projeto eu fiz para um desafio de estagio para a empresa chuva, inicialmente fiz ele em html css e js, como eu estou aprendendo angular eu resolvi passar este projeto pra angular, conforme o tempo que eu for obtendo mais conhecimento vou alterando o arquivo
