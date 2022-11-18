@@ -384,6 +384,9 @@
     .svg-discussoes{
         margin: 1rem auto;
     }
-
+    #topico h3,  #topico p{
+        width:20ch;
+        margin: auto;
+    }
 
 }
