@@ -1,5 +1,3 @@
-
-
 .detalhes h2 {
     text-align: left;
     font-family: 'Roboto', serif;
@@ -111,8 +109,8 @@
     }
 
     .detalhes, iframe {
-        width: 450px;
-        height: 350px;
+        width: 350px;
+        height: 250px;
     }
 }
 
