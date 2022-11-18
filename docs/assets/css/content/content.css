@@ -96,7 +96,7 @@
     border: none;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 700px) {
     .detalhes h2 {
         font-size: 0.875rem;
         line-height: 1rem;
@@ -106,13 +106,13 @@
 
     .corpo-container {
         margin-bottom: 60px;
-        padding: 20px;
+
 
     }
 
     .detalhes, iframe {
-        width: 500px;
-        height: 400px;
+        width: 450px;
+        height: 350px;
     }
 }
 
@@ -120,15 +120,15 @@
     margin-top:auto;
     margin-bottom:auto;
 }
-@media(max-width: 1300px){
+@media(max-width: 700px){
     .home-video{
-    margin: 1rem 5rem auto;
+    margin: 1rem 2rem auto;
     }
     .download-content{
-        margin: 3rem   auto;
+        margin: 2rem   auto;
     }
     .logo{
-        margin: 3rem auto
+        margin: 2rem auto
     }
     .footer-texto{
         margin: auto;
