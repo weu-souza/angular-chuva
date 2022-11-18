@@ -118,7 +118,7 @@
     margin-top:auto;
     margin-bottom:auto;
 }
-@media(max-width: 700px){
+@media(max-width: 800px){
     .home-video{
     margin: 1rem 2rem auto;
     }

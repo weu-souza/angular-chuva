@@ -66,7 +66,7 @@
     text-align: right;
     color: #333333;
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     #btnMobile {
         display: inline;
     }
